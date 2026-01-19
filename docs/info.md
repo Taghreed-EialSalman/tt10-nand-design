@@ -1,4 +1,4 @@
-How It Works
+## How It Works
 
 The NAND gate is the complement of the AND function. Its graphical symbol consists of an AND gate followed by a small circle, which represents inversion. This means that the output of the NAND gate is the inverse of the AND operation.
 
@@ -8,10 +8,10 @@ An internal signal is used to store the intermediate result of the logic operati
 
 The circuit operates by first applying an AND operation to inputs A and B. The result of this operation is then inverted to produce the final output Y, implementing the NAND logic function.
 
-How to Test
+## How to Test
 
 Verify the NAND gate by applying all possible input combinations for A and B, and checking the output against the NAND truth table.
 
-External Hardware
+## External Hardware
 
 None.
