@@ -12,8 +12,11 @@ In Verilog, a wire represents an electrical connection between logic elements. S
 
 The logic operations are then defined as:
 
-and (Yd, A, B);
-not (Y, Yd);
+
+and(Yd, A, B); 
+not(Y, Yd); 
+endmodule; 
+
 
 Here, an AND operation is performed on inputs A and B, and the result is stored in the internal wire Yd. This intermediate result is then passed through a NOT gate to produce the final output Y. The Verilog compiler interprets the AND and NOT statements as hardware logic gates. The endmodule statement marks the end of the module definition.
 
