@@ -12,7 +12,6 @@ In Verilog, a wire represents an electrical connection between logic elements. S
 
 The logic operations are then defined as:
 
-
 and(Yd, A, B); 
 not(Y, Yd); 
 endmodule; 
